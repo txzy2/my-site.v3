@@ -1,0 +1,45 @@
+.light,
+.dark {
+  margin: 0 auto;
+}
+
+.light {
+  background-color: #1d1d1d;
+  color: #0095f8;
+  // color: #fff;
+}
+
+.dark {
+  background-color: #fff;
+  color: #1d1d1d;
+}
+
+.link-dark {
+  color: gray;
+}
+
+.link-light {
+  color: #0095f8;
+}
+
+.about--dark {
+  color: #fff;
+}
+
+.logo-dark,
+.logo-light {
+  width: 30%;
+  margin: 10px auto;
+
+  background: none !important;
+}
+
+.logo-light path {
+  fill: #1d1d1d;
+  stroke: #1d1d1d;
+}
+
+.logo-dark path {
+  fill: #ffffff;
+  stroke: #fff;
+}

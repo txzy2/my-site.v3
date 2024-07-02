@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Tillana:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap");
+
+@font-face {
+  font-family: "Sanstation";
+  font-style: normal;
+  font-weight: 700;
+
+  src:
+    local("Sanstation"),
+    local("SasstationBold"),
+    url(../assets/fonts/SansationBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Sanstation";
+  font-style: italic;
+  font-weight: 400;
+
+  src:
+    local("Sanstation"),
+    local("SasstationItalic"),
+    url(../assets/fonts/SansationItalic.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Sanstation";
+  font-style: normal;
+  font-weight: 400;
+
+  src:
+    local("Sanstation"),
+    local("SasstationRegular"),
+    url(../assets/fonts/SansationRegular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Sanstation";
+  font-style: normal;
+  font-weight: 300;
+
+  src:
+    local("Sanstation"),
+    local("SasstationLight"),
+    url(../assets/fonts/SansationLight.woff) format("woff");
+}
