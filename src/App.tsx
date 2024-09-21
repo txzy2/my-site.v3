@@ -1,9 +1,18 @@
+/*
+TODO:
+1)Сделать более маленький переключаетль
+2)Сделать Loader
+3)Почистить пути
+4)Перенести фото в public
+
+
+*/
+
 import React, {useEffect, useState} from 'react';
-import Typewriter from 'typewriter-effect';
 
 import {ReactComponent as Logo} from './assets/logo2.svg';
 
-import './styles/styles.scss';
+import '@/assets/styles/styles.scss';
 import {motion} from 'framer-motion';
 import {images} from './assets';
 
@@ -73,30 +82,13 @@ function App() {
 
         <div className={'App__stack'}>
           <div className={`App__stack--title ${isOn ? 'dark' : 'light'}`}>
-            {/* <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString(`Stack`)
-                  .start()
-                  .callFunction(() => {
-                    (
-                      document.getElementsByClassName(
-                        "Typewriter__cursor",
-                      )[0] as HTMLElement
-                    ).style.display = "none";
-
-                    setTimeout(() => {
-                      setIsOn(true);
-                    }, 2000);
-                  });
-              }}
-            /> */}
             Stack
           </div>
 
           <div className={'App__stack--inf'}>
             <div>React</div>
             <div>Angular</div>
+            <div>Vue</div>
           </div>
         </div>
 
